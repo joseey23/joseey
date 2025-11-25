@@ -5,22 +5,18 @@
       "VITE_BUILD": "1"
     }
   },
-  "installCommand": "pnpm install",
-  "buildCommand": "pnpm build",
+
+  "installCommand": "npm install",
+
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "/dist/index.js"
     },
-
     {
-      "src": "/(.*\\.[^\\/]*$)",
-      "dest": "/dist/public/$1"
-    },
-
-    {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/dist/public/index.html"
     }
   ]
