@@ -2,10 +2,5 @@
   "buildCommand": "vite build",
   "outputDirectory": "dist/public",
   "devCommand": "npm run dev",
-  "installCommand": "npm ci",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "installCommand": "npm ci"
 }
