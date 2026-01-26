@@ -8,6 +8,7 @@ const skills = [
   "ERP Systems",
   "Front-End Development",
   "Backend Development",
+  "Wordpress",
   "API Integrations",
   "Data Analytics",
   "React",
