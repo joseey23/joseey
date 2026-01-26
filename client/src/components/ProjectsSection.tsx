@@ -77,7 +77,7 @@ const projects: Omit<ProjectCardProps, "index">[] = [
   {
     title: "Kaawa Coffee",
     description:
-      "Whether you’re seeking expert guidance, professional training, or premium coffee-infused products, Coffee Klub is dedicated to providing you with an exceptional experience that’s tailored to your unique preferences.",
+      "Welcome to our Coffee Subscription Platform, where we bring you the finest coffee treasures from East Africa! Discover a world of rich flavors and captivating aromas, handpicked from the heart of this enchanting region.",
     image: kaawaImage,
     liveUrl: "https://kaawacoffee.com/",
     githubUrl: "https://github.com/joseey23",
